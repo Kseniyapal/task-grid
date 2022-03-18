@@ -2,5 +2,17 @@ html,
 body,
 #root {
     height: 100%;
-    margin: 0;
+    margin: 0px;
+}
+section {
+    width: 700px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 200px 1fr;
+
+    gap: 20px;
+}
+div {
+    background-color: #daa520;
 }
